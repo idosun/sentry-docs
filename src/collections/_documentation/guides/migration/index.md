@@ -3,7 +3,7 @@ title: Moving on Up - Switch to Hosted Sentry
 sidebar_order: 6
 ---
 
-Sentry offers a hosted cloud solution in addition to an open-source solution, both are functionally the same. Despite open-source being a core value for us at Sentry, it isn't necessarily recommended for everyone. As Sentry evolves, many customers are finding that hosting Sentry on-premise can quickly become expensive to maintain, scale, and support, making our SaaS product, the better and less costly option.
+Sentry offers a hosted cloud solution in addition to an open-source solution, both are functionally the same. Despite open-source being a core value for us at Sentry, it isn't necessarily recommended for everyone. As Sentry evolves, many customers are finding that hosting Sentry on-premise can quickly become expensive to maintain, scale, and support, making our SaaS product, the better and less costly option at scale.
 
 For additional reading on considering SaaS, take a look at:
 
@@ -14,7 +14,7 @@ For additional reading on considering SaaS, take a look at:
 
  Organizations that start with hosting Sentry on-premise invest time and effort in configuring and customizing their Sentry Org. Once they decide to move to a SaaS account, it's important for them to know that they can migrate a lot of that investment into their new account instead of starting from scratch.
 
-To make this migration as seamless as possible, Sentry has a migration workflow that allows you to migrate most of your account's settings and configurations. This includes project settings, alert rules, enabled data scrubbers, team settings, saved search queries, integration platform metadata (Sentry 10), etc.
+To make this migration as seamless as possible, Sentry has a migration workflow that allows you to migrate most of your account's settings and configurations. This includes project settings, alert rules, enabled data scrubbers, team settings, saved search queries, etc.
 
 One thing to note is we won't be able to transfer over historical event data, but new incoming events will populate the projects in your new organization. You will also need to re-invite all your members and add them to the correct teams.
 
@@ -34,7 +34,7 @@ Once you complete the onboarding steps, grab your **org slug** from the browser 
 
 ### 2. Choose a plan
 
-Take a look at our [plans](https://sentry.io/pricing/) and select one that suits your needs based on the different features and capabilities. Notice that plan pricing varies based on the type of _Contract_ and _Monthly Event Volume_, so make sure you are familiar with your current/expected monthly usage (number of events per month).
+Take a look at our [plans](https://sentry.io/pricing/) and select one that suits your needs based on the different features and capabilities. Notice that plan pricing varies based on the _Contract Type_ and _Monthly Event Volume_, so make sure you are familiar with your current/expected monthly usage (number of events per month).
 
 If you're expecting higher volumes or you're interested in our Enterprise capabilities (priority support and SLAs, single-tenant options, etc.), please [contact us](https://sentry.io/contact/enterprise/) regarding our **Enterprise Plan**.
 
